@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>World</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>World carosuel</h1>
+
+<div class="owl-carousel">
+  <div class="item"><img src="img/book.jpg"></div>
+  <div class="item"><img src="img/camera.jpg"></div>
+  <div class="item"><img src="img/pencil.jpg"></div>
+  <div class="item"><img src="img/white.jpg"></div>
+  <div class="item"><img src="img/ice.jpg"></div>
+  <div class="item"><img src="img/city.jpg"></div>
+  <div class="item"><img src="img/cloud.jpg"></div>
+  <div class="item"><img src="img/water.jpg"></div>
+</div>
+
+    <!-- JavaScript -->
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        items : 2,
+        dots : true,
+        autoplay : true,
+        autoplayTimeout : 5000,
+        autoplayHoverPause : true,
+        loop : true,
+      })
+     })
+    </script>
+  </body>
+</html>
